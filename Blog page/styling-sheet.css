@@ -1,0 +1,87 @@
+/* 
+Colour palette
+
+Picled Bluewood: #2b3d4f
+Shamrock: #2ecc70
+Curious Blue: #3398db
+Wisteria: #9b58b6
+*/
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header, main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #2b3d4f;
+    padding: 1em;
+}
+
+body{
+    margin: 0;
+}
+
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:2em;
+    padding:2em;
+    margin: 0;
+    justify-content: center;
+    background-color: #2b3d4f;
+}
+
+.header-image{
+    width: 100%;
+    text-align: center;
+}
+
+.github-image{
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.my-github{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: #9b58b6;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #3398db;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+}
+
+main{
+    padding: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+}
+
+blockquote{
+    padding: 2em;
+    margin: 1em;
+    background-color: rgba(155, 88, 182, 0.1);
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 400;
+    
+}
