@@ -107,7 +107,8 @@ a:hover {
 
 /* Size of the page content */
 header,
-div {
+div,
+table {
     width: 80%;
     margin: 0 auto;
 }
@@ -189,7 +190,7 @@ main {
 }
 
 
-/* Wearables CSS */
+/* Page in progress CSS */
 
 p {
     text-align: center;
@@ -202,3 +203,75 @@ p {
     align-content: center;
     padding: 1em 0em 1em 0em;
 }
+
+/* Wearbles CSS */
+/* Table */
+/* caption {                Decided I did not want the caption displaying because the title is good enough
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+} */
+
+table {
+    border-color: #534439;
+    border-width: 4px;
+    border-style: double;
+    border-radius: 4px;
+
+    margin-bottom: 4em;
+    align-items: center;
+}
+
+th {
+    border-bottom: 2px solid;
+    background-color: #402E32;
+    color: #BAA89B;
+    padding: 1em;
+
+    font-weight: 600;
+}
+
+.light-row {
+    background-color: #BAA89B;
+    color: #402E32;
+    padding: 1em;
+}
+
+.dark-row {
+    background-color: #534439;
+    color: #DFE0DF;
+    padding: 1em;
+}
+
+td {
+    padding: 0.5em 0.5em 0.5em 2em;
+    text-align: center;
+}
+
+.heading-block {
+    color: #BAA89B;
+    background-color: #402E32;
+    padding: 1em 0em 1em 0em;
+}
+
+.wearable-name a {
+    text-decoration-line: none;
+    color: #534439;
+}
+
+.product-details h4 {
+    color: #BAA89B;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+
+    width: 100%;
+
+    color: #DFE0DF;
+    padding: 1em 2em 1em 2em;
+}
+
+.display-details {}
