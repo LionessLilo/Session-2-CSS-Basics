@@ -257,21 +257,29 @@ td {
 .wearable-name a {
     text-decoration-line: none;
     color: #534439;
+    font-family: "Oswald", sans-serif;
 }
 
-.product-details h4 {
-    color: #BAA89B;
-}
-
-.product-details {
+.side-by-side {
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
-
     width: 100%;
-
-    color: #DFE0DF;
-    padding: 1em 2em 1em 2em;
 }
 
-.display-details {}
+.side-by-side .heading-description,
+.side-by-side iframe {
+    flex: 1;
+    flex-grow: 1;
+}
+
+.heading-description {
+    color: #402E32;
+    padding: 2em;
+}
+
+/* Footer */
+.dark-block-footer {
+    margin-top: 1em;
+    width: 97%;
+    /* Hacky as hell but it was late and I wanted it done */
+}
