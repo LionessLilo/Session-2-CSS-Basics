@@ -34,8 +34,6 @@
     font-family: "Alice", serif;
     font-weight: 400;
     font-style: normal;
-
-    color: #534439;
 }
 
 /* Headings */
@@ -50,7 +48,6 @@ h6 {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: #402E32;
 }
 
 h1 {
@@ -77,6 +74,10 @@ h6 {
     font-size: 1em;
 }
 
+a:hover {
+    color: #80A88D;
+}
+
 /* Nav menu */
 .nav-menu ul {
     display: flex;
@@ -93,6 +94,7 @@ h6 {
 
 .nav-menu a {
     text-decoration: none;
+    color: #534439;
 }
 
 .nav-menu li+li:before {
@@ -101,10 +103,6 @@ h6 {
     margin-right: 20px;
     position: relative;
     top: -2px;
-}
-
-.nav-menu a:hover {
-    color: #80A88D;
 }
 
 /* Size of the page content */
@@ -118,8 +116,23 @@ div {
 footer {
     width: 80%;
     margin: 0 auto;
-    background-color: #2b3d4f;
+    background-color: #402E32;
     padding: 1em;
+
+    color: #BAA89B;
+    text-align: center;
+}
+
+/* Other global CSS */
+.white-block {
+    color: #402E32;
+    padding: 16% 0% 16% 0%;
+}
+
+.brown-block {
+    color: #BAA89B;
+    background-color: #402E32;
+    padding: 16% 0% 16% 0%;
 }
 
 /* Introduction block */
@@ -145,33 +158,32 @@ main {
 }
 
 /* Extra resources block */
-.extra-resources {
+.white-block {
     padding: 16% 0% 16% 0%;
 }
 
-.info-on-materials {
-    padding: 5% 0% 16% 0%;
-    background-color: #402E32;
+.card {
+    width: 25%;
+    background-color: #BAA89B;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-.info-on-materials h3 {
-    color: #BAA89B;
+.card img {
+    width: 100%;
 }
 
-.info-on-materials img,
-ul,
-a {
-    justify-content: center;
-    text-decoration: none;
+.card .text-container {
+    max-width: 100%;
+
+    text-align: center;
+
+    color: #402E32;
+    padding: 1.2em 1.5em;
 }
 
-.info-on-materials img {
-    width: 200px;
-    height: 200px;
-    border-radius: 3%;
-    padding: 0% 5% 0% 5%;
-}
+.card a {
+    text-decoration-line: none;
+    color: #402E32;
 
-.info-on-materials ul {
-    list-style: none;
 }
